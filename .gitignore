@@ -1,0 +1,30 @@
+# Node
+node_modules/
+*.log
+*.tsbuildinfo
+
+# Build output
+lib/
+dist/
+cdk.out/
+.cdk.staging/
+src/smithy/
+
+# Test artifacts
+coverage/
+test-reports/
+junit.xml
+.nyc_output/
+
+# Tooling
+.eslintcache
+.cache/
+.parcel-cache/
+
+# Local working files (never published)
+TODO.md
+.kiro/
+.DS_Store
+
+# Security probe scans
+ProbeScanExport*
